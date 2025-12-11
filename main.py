@@ -5,7 +5,7 @@ import sqlite3
 import secrets
 import string
 
-from telegram import Update, BotCommand
+from telegram import Update
 from telegram.ext import (
     ApplicationBuilder, CommandHandler, MessageHandler,
     filters, ContextTypes, ConversationHandler
@@ -16,7 +16,7 @@ BOT_TOKEN = os.environ.get("BOT_TOKEN")
 ADMIN_CHAT_ID = int(os.environ.get("ADMIN_CHAT_ID", "0"))
 ADMIN_PASSWORD = os.environ.get("ADMIN_PASSWORD")
 
-DB_PATH = "database.db"
+DB_PATH = "/tmp/database.db"
 
 # ---- STATES ----
 STATE_WAIT_PASSWORD = 1
