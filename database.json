@@ -1,10 +1,4 @@
 {
-  "mappings": {},
-  "users": {},
-  "downloadCount": 0,
-  "welcome": "👋 Welcome! Use the deep link from channel to get your file.",
-  "inactiveMessage": "👋 It's been a while. Need the file again? Open link or message admin.",
-  "settings": {
-    "inactiveDays": 2
-  }
+  "files": {},
+  "users": []
 }
